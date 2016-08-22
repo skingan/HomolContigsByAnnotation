@@ -36,7 +36,7 @@ Downstream analysis recommendations
 
 A non-redundant list of contigB IDs is a reasonable starting list of contigs that should be flagged as allelic (haplotype) variants. Simply substracting their total length from the genome assembly length may result in a more accurate estimate of genome size.
 
-This approach has been fruitful for PacBio assemblies with contig N50 stats on the order of > 1Mbp. I cannot vouch for its effectiveness on more fragmented NGS-bases assemblies.
+_NOTE: This approach has been fruitful for PacBio assemblies with contig N50 stats on the order of > 1Mbp. I cannot vouch for its effectiveness on more fragmented NGS-bases assemblies._
 
 
 
