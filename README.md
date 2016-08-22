@@ -1,4 +1,4 @@
-FindSharedGenes
+Find Homologous Contigs By Gene Annotation
 ===========
 
 python script to identify genes that are present on multiple contigs
