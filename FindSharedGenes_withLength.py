@@ -42,9 +42,9 @@ def BED2Dict(bed_file):
 		reader = csv.reader(csvfile, delimiter='\t')
 		for row in reader:
 			if (row[0] in my_dict):
-				my_dict[row[0]].append(row[4]) 
+				my_dict[row[0]].append(row[3]) 
 			else:
-				my_dict[row[0]] = [row[4]]
+				my_dict[row[0]] = [row[3]]
 	return my_dict
 
 def Len2Dict(length_file):
@@ -56,7 +56,6 @@ def Len2Dict(length_file):
                 for row in reader:
 			my_dict[row[0]] = row[1]
         return my_dict
-
 
 
 
