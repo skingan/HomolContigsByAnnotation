@@ -9,6 +9,7 @@ Introduction
 
 Genome assemblies of non-inbred diploid individuals may result in the assembly of "homologous contigs", contig pairs that capture homologous genomic regions but are sufficiently divergent from each other as to be assembled independently. This phenomenom often results in a genome length that is longer than expected. Unlike other tools which merge homologous regions based on DNA sequence similarity ([Redundans](http://nar.oxfordjournals.org/content/44/12/e113), [HaploMerger](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3409271/pdf/1581.pdf)), my method uses genome annotation information to identify pairs of homologous contigs. The source of the genome annotation is flexible but I recommend a conservative approach based on identifying conserved core (single-copy) genes using [BUSCO](http://busco.ezlab.org/). Contigs that lack BUSCO genes will be missed by this analysis so adding an transcript-based annotation is more sensitive, but also prone to error due to true gene duplications or ambiguous mapping of transcripts.
 
+This approach has been effective at deduplicating primary contigs in the Aedes aegypti FALCON-Unzip assembly, see my [poster](http://www.pacb.com/wp-content/uploads/Kingan-AGBT-2017-A-high-quality-genome-assembly-of-SMRT-sequences-diploid-mosquito-Aedes-aegypti.pdf) presented at AGBT 2017.
 
 User Inputs
 ===========
