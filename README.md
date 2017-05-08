@@ -16,7 +16,7 @@ User Inputs
 
 At the command line, the user must specify the file paths for the following inputs:
 
-1. BED file containing annotated genes and their gene spans (do not include mRNA, exons etc!).
+1. BED file containing annotated genes and their gene spans (do not include mRNA, exons etc!). The shell script [BUSCOfull2BED](https://github.com/skingan/HomolContigsByAnnotation/blob/master/BUSCOfull2BED.sh) will produce this for duplicated genes.
 2. Tab delimited text file with contig IDs and lengths.
 
 Output
